@@ -66,7 +66,7 @@ function Usuarios({ user }) {
     } finally{
       await fetchDataAndFillTable();
     }
-
+{hola}
 
 
   }else if (modo === "Editar") {
