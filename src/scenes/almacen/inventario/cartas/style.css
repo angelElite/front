@@ -1,0 +1,15 @@
+@media print {
+    body {
+      width: 80mm;
+      margin: 0;
+    }
+  
+    .impresion-solo {
+      display: block;
+    }
+  
+    /* Oculta todo excepto el contenido que deseas imprimir */
+    body > *:not(.impresion-solo) {
+      display: none;
+    }
+  }
